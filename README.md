@@ -3,6 +3,8 @@
 This is an example of using Selenium with Redis and Flask. The purpose of this is to save session with Selenium. You may want to do this for a few reasons: 
  - Save login session
 	 - Very useful for saving Captcha or ReCaptcha session 
+	 - Of course more obviously: save time + resources not logging in every time
+ - Selenium code can be tested immediately upon saving file. No need to restart Selenium (or webdriver), Flask or Redis.
  - Applications that have many Selenium calls can use one instance instead of creating many, saving resources
  - Scheduling tasks that can be completed with Selenium
 
